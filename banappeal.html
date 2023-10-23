@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ban Appeal</title>
+    <link rel="stylesheet" href="assets/css/banappeal.css">
+</head>
+<body>
+    <div class="feedback-card">
+        <div class="feedback-header">BAN APPEAL</div>
+        <form class="feedback-body">
+            <input class="feedback-body__email" type="number" placeholder="Discord User_id">
+            <textarea class="feedback-body__message" type="text" placeholder="Why you were banned"></textarea>
+            <button class="feedback-body__submit">SEND</button>
+            <button class="feedback-body__submit"><a href="https://nagato.vercel.app">HOME</a></button>
+        </form>
+    </div>
+    <script>
+        (function () {
+            const btn = document.querySelector("feedback-body__submit");
+            if (btn) {
+                btn.addEventListener("click", function (e) {
+                    e.preventDefault();
+                });
+            }
+        })();
+    </script>
+</body>
+</html>

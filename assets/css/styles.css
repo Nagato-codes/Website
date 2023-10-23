@@ -606,6 +606,7 @@ body.dark-theme {
   .home_img {
     width: 500px;
     margin-top: var(--mb-1);
+    border-radius: 20px;
   }
 
   .about_container,
