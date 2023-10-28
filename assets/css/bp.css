@@ -33,7 +33,7 @@ body{
   outline: none;
 }
 #SendMessage{
-  position: absolute;
+  position: relative;
   width: 8%;
   height: 50px;
   bottom: -8%;
@@ -125,4 +125,29 @@ body{
   top: 10px;
   font-size: 10px;
   color: #8B8B8B;
+}
+.home-button {
+  position: relative;
+  width: 8%;
+  height: 50px;
+  bottom: -8%;
+  margin-top: 10px;
+  right: 23.5%;
+  font-size: 1em;
+  border: none;
+  border-radius: 20px;
+  background-color: #009FB7;
+  color: #023C40;
+  font-family: rubik;
+  cursor: pointer;
+  animation: Btn1, 1s;
+  font-size: 1vw;
+  transition: background-color 1s;
+}
+.home-button:hover {
+  animation: HoverBtn1, 1s;
+  background-color: #A8B5D2;
+}
+.home-button a {
+  text-decoration: none;
 }
